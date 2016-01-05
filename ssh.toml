@@ -1,0 +1,9 @@
+[template]
+src = "authorized_keys.tmpl"
+dest = "/ssh/authorized_keys"
+owner = "core"
+group = "core"
+mode = "0644"
+keys = [
+  "/sshkeys
+]
